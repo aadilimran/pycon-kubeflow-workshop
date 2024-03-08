@@ -20,7 +20,7 @@ This workshop centers around a dataset featuring around 10 years of daily weathe
 
 ### Objective
 
-Your task is to predict the binary outcome `RainTomorrow`—`Yes` for rain, `No` for no rain—using the weather observations provided in the dataset.
+Your task is to predict the binary outcome `RainTomorrow` — `Yes`, `No` using the weather observations provided in the dataset.
 
 ### Dataset Description
 - **Dataset URL:** http://rattle.togaware.com/weatherAUS.csv
