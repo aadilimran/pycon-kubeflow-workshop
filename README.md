@@ -1,6 +1,6 @@
 # PyCon Workshop: Machine Learning Pipeline Deployment with Kubeflow
 
-Welcome to our PyCon Workshop on deploying Machine Learning pipelines with Kubeflow. This workshop will guide you through the process of preparing, compiling, deploying, and running a Machine Learning pipeline, utilizing a specific problem statement and dataset.
+Welcome to `Motive` PyCon Workshop on deploying Machine Learning pipelines with Kubeflow. This workshop will guide you through the process of preparing, compiling, deploying, and running a Machine Learning pipeline, utilizing a specific problem statement and dataset.
 
 ## Prerequisites
 
