@@ -105,10 +105,12 @@ To execute your pipeline:
 
 For those unfamiliar with some of the technologies used in this workshop, here are some resources to get you started:
 
+- [Lightweight Python Components Documentation] (https://www.kubeflow.org/docs/components/pipelines/v2/components/lightweight-python-components/)
 - [Minikube Installation Guide](https://minikube.sigs.k8s.io/docs/start/)
 - [Kubeflow Installation Guide](https://github.com/kubeflow/manifests)
 - [Running the Kubeflow Dashboard](https://www.kubeflow.org/docs/components/central-dash/overview/)
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+https://www.kubeflow.org/docs/components/pipelines/v2/components/lightweight-python-components/
 
 ## Support
 
