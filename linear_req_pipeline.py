@@ -3,10 +3,9 @@ from kfp.v2.dsl import component, Output, Input, Artifact, Dataset, Model
 
 
 
-def download_data(output_csv: Output[Dataset]):
+def download_data(input_url: str, output_csv: Output[Dataset]):
     import pandas as pd
-    url = "http://rattle.togaware.com/weatherAUS.csv"
-    data = pd.read_csv(url)  # Read csv file
+    data = pd.read_csv(input_url)  # Read csv file
     print(data.head())
     print(data.info())
     data.to_csv(output_csv.path, index=False)
@@ -84,5 +83,5 @@ def testing(input_X_test: Input[Artifact], input_y_test: Input[Artifact], model_
     print("Our model's score is ", model.score(X_test, y_test))
 
 
-def LR_model_train_test_pipeline(test_size: float, random_state: int):
+def LR_model_train_test_pipeline(dataset_url: str, test_size: float, random_state: int):
     # Create pipeline Graph here.
