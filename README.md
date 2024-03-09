@@ -98,6 +98,9 @@ To execute your pipeline:
 1. From the dashboard, click on the **Create run** button.
 2. Select "pycon-workshop-exp" as the experiment.
 3. Set the required parameters for your pipeline run.
+    - **dataset_url:** http://rattle.togaware.com/weatherAUS.csv
+    - **test_size:** 0.2 (which means 20% of your data will be used as a testset)
+    - **random_state:** 75 (`random_state` simply sets a seed to the random generator, so that your train-test splits are always deterministic)
 4. Click **Start** to initiate the run.
 
 
