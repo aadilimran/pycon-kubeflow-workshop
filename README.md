@@ -8,6 +8,11 @@ Before starting, ensure you have the following installed:
 
 - Python 3.x
 - `pip` for Python3
+- kfp==2.7.0
+- scikit-learn==1.0.1
+- pandas==1.3.4
+- dill==0.3.4
+- Numpy
 
 
 Please refer to the [Additional Resources](#additional-resources) section for detailed installation guides.
