@@ -94,6 +94,11 @@ Once logged in, follow these steps to upload and deploy your pipeline:
 2. Click on **Upload pipeline** and select your compiled `.yaml` file.
 3. Enter a name for your pipeline in the **Pipeline name** field.
 4. Click **Create** to upload your pipeline.
+```
+kfp.compiler.Compiler().compile(
+    pipeline_func=my_pipeline,
+    package_path='pipeline.yaml')
+```
 
 
 ## Creating a Run
