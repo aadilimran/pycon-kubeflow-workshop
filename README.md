@@ -79,7 +79,7 @@ Replace <input_python_file> with the name of your Python file containing the pip
 
 To deploy your compiled pipeline, navigate to the Kubeflow dashboard using the following link:
 
-***http://<IP>:<port>/***
+***http://IP:PORT/***
 
 Use the following credentials to log in:
 
